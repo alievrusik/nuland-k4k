@@ -23,7 +23,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.DocumentReference;
-
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,13 +33,16 @@ import java.util.Map;
  public class Register extends AppCompatActivity {
      public static final String TAG = "TAG";
 
-     EditText mFullName,mEmail,mPassword,mPhone;
+     EditText mFullName,mEmail,mPassword,mPhone, mDescription;
      Button mRegisterBtn;
      TextView mLoginBtn;
      FirebaseAuth fAuth;
      ProgressBar progressBar;
      FirebaseFirestore fStore;
      String userID;
+     RadioGroup radioGroup;
+     RadioButton radioButton;
+
 
 
     @Override
@@ -52,11 +57,12 @@ import java.util.Map;
         mPhone = findViewById(R.id.phone);
         mRegisterBtn = findViewById(R.id.registerBtn);
         mLoginBtn = findViewById(R.id.createText);
+        mDescription = findViewById(R.id.description);
 
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         progressBar = findViewById(R.id.progressBar);
-
+        radioGroup = findViewById(R.id.radioGroup);
 
         if (fAuth.getCurrentUser() != null) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
@@ -71,7 +77,10 @@ import java.util.Map;
                 String password = mPassword.getText().toString().trim();
                 final String fullName = mFullName.getText().toString();
                 final String phone = mPhone.getText().toString();
-
+                int radioID = radioGroup.getCheckedRadioButtonId();
+                radioButton = findViewById(radioID);
+                final String skill = radioButton.getText().toString();
+                final String description = mDescription.getText().toString().trim();
 
                 if (TextUtils.isEmpty(email)) {
                     mEmail.setError("Email is required");
@@ -103,6 +112,9 @@ import java.util.Map;
                             user.put("fName",fullName);
                             user.put("email",email);
                             user.put("phone",phone);
+                            user.put("skill",skill);
+                            user.put("description",description);
+
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
@@ -131,5 +143,9 @@ import java.util.Map;
                 startActivity(new Intent(getApplicationContext(), Login.class));
             }
         });
+
+
+
+
     }
 }
