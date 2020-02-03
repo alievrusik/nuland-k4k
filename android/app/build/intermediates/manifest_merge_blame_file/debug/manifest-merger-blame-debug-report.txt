@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nuland02"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:7:5-81
+15-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+16-->[:react-native-maps] C:\Users\maxsk\np\nuland-hackathon-master\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+16-->[:react-native-maps] C:\Users\maxsk\np\nuland-hackathon-master\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+22
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:9:5-30:19
+28        android:name="com.nuland02.MainApplication"
+28-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:10:7-38
+29        android:allowBackup="false"
+29-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:14:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.1] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\7f239875c19cf928f2890ed630c2fcc2\core-1.0.1\AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:12:7-41
+33        android:label="@string/app_name"
+33-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:11:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:13:7-52
+35        android:theme="@style/AppTheme"
+35-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:15:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\debug\AndroidManifest.xml:7:18-53
+37        <meta-data
+37-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:16:9-18:70
+38            android:name="com.google.android.geo.API_KEY"
+38-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:17:13-58
+39            android:value="AIzaSyAWrEALbYXbNnoycx348dPwVDOot0aoKd8" />
+39-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:18:13-68
+40
+41        <activity
+41-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:19:7-28:18
+42            android:name="com.nuland02.MainActivity"
+42-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:20:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+43-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:22:9-79
+44            android:label="@string/app_name"
+44-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:21:9-41
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:23:9-51
+46            <intent-filter>
+46-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:24:9-27:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:25:13-65
+47-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:25:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:26:13-73
+49-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:26:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- Needs to be explicitly declared on P+ -->
+52-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:29:7-84
+52-->C:\Users\maxsk\np\nuland-hackathon-master\android\app\src\main\AndroidManifest.xml:29:17-81
+53        <uses-library
+53-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+54            android:name="org.apache.http.legacy"
+54-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+55            android:required="false" />
+55-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\20ad9e265575c73d938d9a6c2d727422\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+56
+57        <service
+57-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:28:13-84
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+62-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\36be9d46e0626d2c377637d983b9480d\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+65-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+67        </service>
+68
+69        <receiver
+69-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+70            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+70-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+71            android:exported="true"
+71-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+72            android:permission="com.google.android.c2dm.permission.SEND" >
+72-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+73            <intent-filter>
+73-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+74                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+74-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+74-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\218876ea9bf61e839cb84ccb1ab63d93\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+75            </intent-filter>
+76        </receiver>
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\985dad7f9d84aa88435525667b3a3f18\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\985dad7f9d84aa88435525667b3a3f18\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\985dad7f9d84aa88435525667b3a3f18\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\985dad7f9d84aa88435525667b3a3f18\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+82
+83        <meta-data
+83-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\88b1f23a8d125a402a6f74a42b603220\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\88b1f23a8d125a402a6f74a42b603220\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\88b1f23a8d125a402a6f74a42b603220\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+86
+87        <receiver
+87-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+88-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+91        </receiver>
+92        <receiver
+92-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+93            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+93-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+95            android:exported="true"
+95-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+96            android:permission="android.permission.INSTALL_PACKAGES" >
+96-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+97            <intent-filter>
+97-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+98                <action android:name="com.android.vending.INSTALL_REFERRER" />
+98-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+98-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+99            </intent-filter>
+100        </receiver>
+101
+102        <service
+102-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+103            android:name="com.google.android.gms.measurement.AppMeasurementService"
+103-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+105            android:exported="false" />
+105-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+106        <service
+106-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+107            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+107-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\f78ed572bde7286b39c54aa11c1c16f6\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+114            android:authorities="com.nuland02.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maxsk\.gradle\caches\transforms-2\files-2.1\bc624377538ec6dae79edc7f4231daab\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+117    </application>
+118
+119</manifest>
